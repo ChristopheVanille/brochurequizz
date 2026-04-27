@@ -474,6 +474,36 @@ body {
   text-align: left;
 }
 
+.result-retailer {
+  display: grid;
+  gap: 6px;
+  width: min(100%, 520px);
+  margin: 24px auto 0;
+  padding: 18px 20px;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(18px);
+}
+
+.result-retailer-label {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.result-retailer-name {
+  font-size: clamp(1.25rem, 2.1vw, 1.8rem);
+  line-height: 1.15;
+}
+
+.result-retailer-note {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
 .result-point {
   padding: 16px 18px;
   border-radius: var(--radius-md);
