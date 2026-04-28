@@ -2,82 +2,82 @@ const quizData = [
   {
     question: "Quand quelqu’un tombe sur votre format, votre premier réflexe est de...",
     answers: [
-      { label: "Installer un cadre clair, propre, rassurant, presque trop adulte", scores: { static: 2, dba: 1 } },
-      { label: "Entrer très fort dans la pièce, même si personne n’avait rien demandé", scores: { superbanner: 2, spotlight: 1 } },
-      { label: "Raconter une histoire pour éviter l’ambiance triste du simple catalogue", scores: { stories: 2, spotlight: 1 } },
-      { label: "Montrer des offres ciblées avec l’air de ne pas en faire des tonnes", scores: { dyco: 2, dba: 1 } },
+      { label: "Poser un cadre clair pour éviter tout pilotage à l’instinct", scores: { static: 2, dba: 1 } },
+      { label: "Faire une entrée très visible pour capter les quick wins d’attention", scores: { superbanner: 2, spotlight: 1 } },
+      { label: "Raconter une histoire avec l’air très sûr de votre vision long terme", scores: { stories: 2, spotlight: 1 } },
+      { label: "Faire remonter les bonnes offres avec un niveau de précision presque agressif", scores: { dyco: 2, dba: 1 } },
     ],
   },
   {
     question: "Votre rythme de lecture idéal ressemble plutôt à...",
     answers: [
-      { label: "Une progression régulière et structurée, comme une personne qui fait ses tableaux Excel à l’heure", scores: { static: 2, dba: 1 } },
-      { label: "Des sections dynamiques qui bougent juste assez pour paraître intelligentes", scores: { dyco: 2, stories: 1 } },
-      { label: "Quelques pics d’attention très bien placés, façon 'regardez ici, merci'", scores: { spotlight: 2, superbanner: 1 } },
-      { label: "Court, direct, sec, et idéalement impossible à esquiver", scores: { push: 2, superbanner: 1 } },
+      { label: "Une progression régulière, structurée, et globalement très rassurante pour le delivery", scores: { static: 2, dba: 1 } },
+      { label: "Des sections dynamiques qui itèrent sans dégrader l’expérience", scores: { dyco: 2, stories: 1 } },
+      { label: "Quelques pics d’attention bien timés, parce que tout n’a pas vocation à scaler", scores: { spotlight: 2, superbanner: 1 } },
+      { label: "Court, direct, activable immédiatement, avec peu de place pour le débat", scores: { push: 2, superbanner: 1 } },
     ],
   },
   {
     question: "Côté hiérarchie visuelle, vous êtes plutôt...",
     answers: [
-      { label: "Des repères nets et constants, pour que tout le monde garde son calme", scores: { static: 2, dba: 1 } },
-      { label: "Un gros bloc héros qui prend l’espace comme s’il payait le loyer", scores: { superbanner: 2, spotlight: 1 } },
-      { label: "Un fil conducteur en scènes successives, avec un léger sens du spectacle", scores: { stories: 2, spotlight: 1 } },
-      { label: "Un message court qui s’installe immédiatement au centre du débat", scores: { spotlight: 2, push: 1 } },
+      { label: "Des repères nets et constants, validés par votre équipe d’élite intérieure", scores: { static: 2, dba: 1 } },
+      { label: "Un gros bloc héros qui prend l’espace comme un stakeholder très motivé", scores: { superbanner: 2, spotlight: 1 } },
+      { label: "Un fil conducteur en séquences, avec une vraie ambition de narration premium", scores: { stories: 2, spotlight: 1 } },
+      { label: "Un message court qui arrive, pose ses KPI, et repart", scores: { spotlight: 2, push: 1 } },
     ],
   },
   {
     question: "Le ton qui vous ressemble le plus est...",
     answers: [
-      { label: "Fiable et maîtrisé, le genre qu’on imagine porter une chemise repassée", scores: { static: 2, dba: 1 } },
-      { label: "Vif, utile et orienté offres, mais sans se transformer en foire permanente", scores: { dyco: 2, free: 1 } },
-      { label: "Libre et instinctif, avec une relation compliquée au mot 'cadre'", scores: { free: 2, stories: 1 } },
-      { label: "Direct, contextuel, et un tout petit peu envahissant", scores: { push: 2, dba: 1 } },
+      { label: "Fiable et maîtrisé, avec une capacité rare à ne pas paniquer en comité", scores: { static: 2, dba: 1 } },
+      { label: "Vif, utile et orienté offres, avec un vrai sujet de perf en toile de fond", scores: { dyco: 2, free: 1 } },
+      { label: "Libre et instinctif, mais présenté comme une stratégie très assumée", scores: { free: 2, stories: 1 } },
+      { label: "Direct, contextuel, et suffisamment insistant pour remonter dans la stack mentale", scores: { push: 2, dba: 1 } },
     ],
   },
   {
     question: "Si votre format devait défendre une idée, il le ferait avec...",
     answers: [
-      { label: "Une organisation impeccable, presque suspecte de rigueur", scores: { static: 2, dba: 1 } },
-      { label: "Une succession d’images et de moments qui donnent l’impression d’avoir une âme", scores: { stories: 2, spotlight: 1 } },
-      { label: "Un teasing qui en montre peu, mais suffisamment pour devenir agaçant", scores: { spotlight: 2, stories: 1 } },
-      { label: "Un rappel bien placé qui dit 'pardon de vous interrompre, mais regardez ça'", scores: { push: 2, dyco: 1 } },
+      { label: "Une organisation impeccable, documentée, et probablement commentée dans un thread Slack", scores: { static: 2, dba: 1 } },
+      { label: "Une suite d’images et de moments vendue comme une vraie plateforme éditoriale", scores: { stories: 2, spotlight: 1 } },
+      { label: "Un teasing sobre qui laisse entendre qu’il y a beaucoup plus derrière, évidemment", scores: { spotlight: 2, stories: 1 } },
+      { label: "Un rappel bien placé qui interrompt poliment votre libre arbitre", scores: { push: 2, dyco: 1 } },
     ],
   },
   {
     question: "Lequel de ces mots-clés vous fait discrètement vibrer ?",
     answers: [
-      { label: "Stabilité, ce plaisir sous-estimé", scores: { static: 2, dba: 1 } },
-      { label: "Mouvement, mais du mouvement qui sait où il va", scores: { dyco: 2, stories: 1 } },
-      { label: "Visibilité, voire légère obsession d’être vu", scores: { superbanner: 2, spotlight: 1 } },
-      { label: "Immédiateté, parce que la patience est un vieux concept", scores: { push: 2, superbanner: 1 } },
+      { label: "Stabilité, cette vieille valeur qui ne fait plus rêver et pourtant tient tout debout", scores: { static: 2, dba: 1 } },
+      { label: "Mouvement, à condition qu’il reste compatible avec la roadmap", scores: { dyco: 2, stories: 1 } },
+      { label: "Visibilité, voire besoin assez fort d’exister dans le viewport", scores: { superbanner: 2, spotlight: 1 } },
+      { label: "Immédiateté, parce qu’attendre c’est déjà perdre du CTR", scores: { push: 2, superbanner: 1 } },
     ],
   },
   {
     question: "Dans un univers de marque, vous admirez surtout...",
     answers: [
-      { label: "La cohérence d’ensemble, même si elle finit rarement en standing ovation", scores: { static: 2, dba: 1 } },
-      { label: "La liberté créative, surtout quand elle frôle poliment l’indiscipline", scores: { free: 2 } },
-      { label: "La capacité à mettre un sujet dans la lumière comme si le reste n’existait plus", scores: { spotlight: 2, superbanner: 1 } },
-      { label: "La manière de raconter une suite d’instants sans perdre les gens ni leur dignité", scores: { stories: 2, dyco: 1 } },
+      { label: "La cohérence d’ensemble, même si personne ne la mentionne dans les retours positifs", scores: { static: 2, dba: 1 } },
+      { label: "La liberté créative, surtout quand elle reste présentable en review", scores: { free: 2 } },
+      { label: "La capacité à mettre un sujet dans la lumière avec une confiance franchement déraisonnable", scores: { spotlight: 2, superbanner: 1 } },
+      { label: "La manière de raconter une suite d’instants comme si chaque slide pouvait changer une vie", scores: { stories: 2, dyco: 1 } },
     ],
   },
   {
     question: "Quand il faut déclencher de l’intérêt rapidement, vous misez surtout sur...",
     answers: [
-      { label: "Une grille d’offres dynamique, propre, localisée, et un peu fière d’elle-même", scores: { dba: 2 } },
-      { label: "Une bannière très visible qui capte tout de suite, avec la délicatesse d’un phare dans les yeux", scores: { superbanner: 2, spotlight: 1 } },
-      { label: "Un avant-goût bien dosé qui donne envie de cliquer sans tout dévoiler d’un coup", scores: { stories: 2, spotlight: 1 } },
-      { label: "Une notification courte, nette, et totalement convaincue d’être prioritaire", scores: { push: 2, spotlight: 1 } },
+      { label: "Une grille d’offres dynamique, localisée, et suivie comme un sujet prioritaire", scores: { dba: 2 } },
+      { label: "Une bannière très visible qui force le respect, ou au moins le regard", scores: { superbanner: 2, spotlight: 1 } },
+      { label: "Un avant-goût bien dosé qui donne envie de cliquer tout en gardant du mystère pour la V2", scores: { stories: 2, spotlight: 1 } },
+      { label: "Une notification courte, nette, et clairement persuadée d’être le sujet du jour", scores: { push: 2, spotlight: 1 } },
     ],
   },
   {
     question: "Au fond, votre format idéal devrait être perçu comme...",
     answers: [
-      { label: "Carré, lisible et durable, le genre qui range aussi bien ses idées que ses dossiers", scores: { static: 2, dba: 1 } },
-      { label: "Dynamique, évolutif et plein d’énergie, mais encore fréquentable", scores: { dyco: 2, free: 1 } },
-      { label: "Visible, assumé et parfaitement incapable de passer inaperçu", scores: { superbanner: 2, spotlight: 1 } },
-      { label: "Court, opportun et suffisamment culotté pour revenir au bon moment", scores: { push: 2, spotlight: 1 } },
+      { label: "Carré, lisible et durable, le genre qui sécurise discrètement tout le projet", scores: { static: 2, dba: 1 } },
+      { label: "Dynamique, évolutif et assez robuste pour absorber deux ou trois pivots stratégiques", scores: { dyco: 2, free: 1 } },
+      { label: "Visible, assumé et structurellement incapable de se fondre dans le décor", scores: { superbanner: 2, spotlight: 1 } },
+      { label: "Court, opportun et assez culotté pour revenir précisément quand vous baissez la garde", scores: { push: 2, spotlight: 1 } },
     ],
   },
 ];
@@ -86,81 +86,81 @@ const results = {
   static: {
     title: "Vous êtes une brochure Static",
     description:
-      "Vous êtes la brochure qui croit encore aux vertus de l’ordre, de la lisibilité et des choses bien rangées. On vous sous-estime parfois parce que vous ne faites pas de claquettes sur la table, mais au fond, tout le monde est soulagé de vous avoir dans la pièce.",
+      "Vous êtes la brochure que personne ne cite en premier quand il faut faire rêver la salle, mais que tout le monde finit par remercier quand il faut réellement livrer quelque chose de propre. Vous croyez au cadre, à la lisibilité et à l’idée radicale qu’un support peut simplement faire son travail.",
     points: [
-      { title: "Énergie", text: "Clarté, constance et petit parfum de sérieux irréprochable." },
-      { title: "Ce qui vous distingue", text: "Vous inspirez confiance sans avoir besoin d’agiter les bras ni les animations." },
-      { title: "À retenir", text: "Vous êtes redoutable dès qu’il faut tenir la route plus de trois secondes." },
+      { title: "Énergie", text: "Clarté, constance et tolérance quasi nulle pour le flou artistique inutile." },
+      { title: "Ce qui vous distingue", text: "Vous rassurez immédiatement les gens qui ont déjà vécu un projet mal cadré." },
+      { title: "À retenir", text: "Vous n’êtes peut-être pas sexy sur le papier, mais vous êtes très rentable émotionnellement." },
     ],
   },
   dyco: {
     title: "Vous êtes une brochure Dyco",
     description:
-      "Vous êtes la brochure qui aime bouger, mais avec méthode. Vous voulez du feed, du ciblage, de la section bien pensée et une sensation de modernité calibrée au millimètre. En résumé, vous adorez l’idée du chaos, tant qu’il est très bien organisé.",
+      "Vous êtes la brochure qui aime l’idée du mouvement, à condition qu’il y ait un feed derrière, un mapping propre et quelqu’un pour suivre les perfs. Vous ne croyez pas au chaos créatif. Vous croyez au chaos structuré, documenté et idéalement scalable.",
     points: [
-      { title: "Énergie", text: "Dynamisme, personnalisation et obsession discrète de la bonne offre au bon endroit." },
-      { title: "Ce qui vous distingue", text: "Vous savez faire vivre un catalogue sans lui laisser le temps de devenir ennuyeux." },
-      { title: "À retenir", text: "Vous êtes très fort pour paraître fluide tout en étant méthodiquement piloté." },
+      { title: "Énergie", text: "Dynamisme, personnalisation et légère obsession pour la bonne offre au bon endroit." },
+      { title: "Ce qui vous distingue", text: "Vous savez faire vivre un catalogue sans donner l’impression d’avoir simplement déplacé des blocs." },
+      { title: "À retenir", text: "Vous êtes la preuve qu’on peut être mouvant tout en restant très contrôlant." },
     ],
   },
   superbanner: {
     title: "Vous êtes une brochure Superbanner",
     description:
-      "Vous êtes le format qui entre quelque part comme s’il avait été invité d’honneur. Votre philosophie est simple : être vu, être mémorisé, et si possible avant même que l’utilisateur ait compris ce qui se passe. La subtilité vous respecte, mais de loin.",
+      "Vous êtes le format qui considère que la discrétion est un problème de concurrence. Votre philosophie est limpide : prendre de la place, capter l’œil, et si possible laisser une trace mentale même chez les gens qui prétendent vous avoir ignoré.",
     points: [
-      { title: "Énergie", text: "Impact, visibilité et absence totale de complexe." },
-      { title: "Ce qui vous distingue", text: "Vous savez capter l’attention comme si c’était une formalité administrative." },
-      { title: "À retenir", text: "Vous êtes dans votre élément quand il faut faire une entrée remarquée, voire un peu théâtrale." },
+      { title: "Énergie", text: "Impact, visibilité et zéro gêne à occuper tout l’espace disponible." },
+      { title: "Ce qui vous distingue", text: "Vous captez l’attention avec l’assurance froide d’un format qui se sait au-dessus du fold." },
+      { title: "À retenir", text: "Vous ne cherchez pas l’approbation, vous cherchez la remontée." },
     ],
   },
   free: {
     title: "Vous êtes une brochure Free",
     description:
-      "Vous êtes la brochure qui aime la liberté, l’air, l’intuition et le petit frisson de l’imprévu. Vous refusez le rendu trop sage, mais vous essayez quand même de ne pas finir en collage mystique incompréhensible.",
+      "Vous êtes la brochure qui n’a pas signé pour devenir un document trop propre. Vous aimez l’air, l’intuition, la liberté et ce petit flou qui permet ensuite d’appeler ça une intention créative. Vous vivez mieux hors des cadres, même si vous acceptez parfois d’en dessiner un pour la forme.",
     points: [
-      { title: "Énergie", text: "Liberté, intuition et légère allergie aux coins trop carrés." },
-      { title: "Ce qui vous distingue", text: "Vous apportez de l’air là où d’autres apportent surtout des tableaux comparatifs." },
-      { title: "À retenir", text: "Vous êtes précieux quand il faut desserrer la cravate du discours." },
+      { title: "Énergie", text: "Liberté, intuition et bonne résistance aux process trop bien élevés." },
+      { title: "Ce qui vous distingue", text: "Vous apportez de l’air là où d’autres apportent essentiellement des validations croisées." },
+      { title: "À retenir", text: "Vous êtes utile quand il faut rappeler que tout n’a pas besoin d’être aligné dans un tableau." },
     ],
   },
   stories: {
     title: "Vous êtes une brochure Stories",
     description:
-      "Vous êtes convaincu qu’un message mérite mieux qu’une juxtaposition de blocs tristes. Vous aimez raconter, séquencer, créer une ambiance et donner l’impression qu’il se passe quelque chose. En bref, vous préférez séduire avant de vendre, ce qui est presque romantique.",
+      "Vous êtes la brochure qui refuse de juxtaposer des blocs comme si l’émotion était optionnelle. Vous aimez raconter, séquencer, poser une ambiance et faire croire qu’un simple scroll peut devenir une expérience. En bref, vous avez fait de la narration un sujet beaucoup trop sérieux.",
     points: [
-      { title: "Énergie", text: "Narration, immersion et goût prononcé pour le petit effet de continuité." },
-      { title: "Ce qui vous distingue", text: "Vous transformez une suite de contenus en parcours qui a presque un début, un milieu et une dignité." },
-      { title: "À retenir", text: "Vous brillez quand l’histoire est aussi importante que l’offre elle-même." },
+      { title: "Énergie", text: "Narration, immersion et conviction profonde qu’un carrousel peut changer une ambiance." },
+      { title: "Ce qui vous distingue", text: "Vous transformez une suite de contenus en parcours avec début, milieu, fin et parfois même sous-texte." },
+      { title: "À retenir", text: "Vous êtes imbattable dès qu’il faut séduire avant de convertir." },
     ],
   },
   spotlight: {
     title: "Vous êtes une brochure Spotlight",
     description:
-      "Vous êtes la brochure qui choisit un héros, braque le projecteur dessus et considère que le reste peut attendre son tour. Vous aimez l’inspiration, l’émotion, le focus net et ce petit plaisir de dire : 'regardez ça, et seulement ça'.",
+      "Vous êtes la brochure qui choisit un héros et considère sincèrement que le reste peut patienter dans l’ombre. Vous aimez le focus, l’émotion, l’inspiration et cette manière très tranquille de diriger le regard comme si la question avait déjà été tranchée en amont.",
     points: [
-      { title: "Énergie", text: "Mise en avant, précision et goût certain pour le premier rôle." },
-      { title: "Ce qui vous distingue", text: "Vous savez diriger le regard avec l’assurance de quelqu’un qui a déjà choisi la réponse." },
-      { title: "À retenir", text: "Vous êtes idéal dès qu’un sujet mérite toute la lumière et pas seulement un petit encart poli." },
+      { title: "Énergie", text: "Mise en avant, précision et vraie passion pour les premiers rôles." },
+      { title: "Ce qui vous distingue", text: "Vous savez imposer un sujet comme s’il avait déjà gagné la réunion de priorisation." },
+      { title: "À retenir", text: "Vous êtes parfait quand il faut donner à un produit l’importance qu’il pense déjà avoir." },
     ],
   },
   dba: {
     title: "Vous êtes une brochure DBA",
     description:
-      "Vous êtes la brochure qui a compris que la performance avait aussi droit à sa vie sociale hors de la plateforme. Vous aimez les offres en temps réel, la proximité magasin, l’environnement display et tout ce qui dit : 'voici une info utile, merci d’agir en conséquence'.",
+      "Vous êtes la brochure qui a très bien compris que la performance ne devait pas rester enfermée dans son écosystème. Vous aimez les offres en temps réel, la proximité magasin, l’environnement display et tous les signaux qui permettent de dire avec calme : 'normalement, ça devrait convertir'.",
     points: [
-      { title: "Énergie", text: "Performance, localisation et goût assumé pour l’efficacité mesurable." },
-      { title: "Ce qui vous distingue", text: "Vous transformez des offres proches, fraîches et dynamiques en argument difficilement contestable." },
-      { title: "À retenir", text: "Vous êtes redoutable quand il faut convertir sans lancer un grand poème." },
+      { title: "Énergie", text: "Performance, localisation et confiance assumée dans ce qui se mesure bien." },
+      { title: "Ce qui vous distingue", text: "Vous transformez des offres proches et fraîches en mécanique d’activation très peu poétique, mais efficace." },
+      { title: "À retenir", text: "Vous êtes ce collègue qui ne parle presque que de delivery, mais qui finit souvent par avoir raison." },
     ],
   },
   push: {
     title: "Vous êtes un Push",
     description:
-      "Vous êtes le format qui arrive au bon moment, ou au moins au moment que vous avez décidé de considérer comme le bon. Peu de mots, peu de patience, beaucoup d’intention. Vous ne contemplez pas le paysage : vous toquez à la vitre et vous attendez qu’on réagisse.",
+      "Vous êtes le format qui arrive au bon moment, ou plus exactement au moment où vous avez décidé que l’utilisateur devait redevenir disponible. Peu de mots, peu de patience, un sens du timing très sûr de lui. Vous ne demandez pas l’attention, vous partez du principe qu’elle vous revient.",
     points: [
-      { title: "Énergie", text: "Immédiateté, contexte et confiance presque insolente dans votre sens du timing." },
-      { title: "Ce qui vous distingue", text: "Vous adorez les messages courts, utiles et suffisamment insistants pour devenir très difficiles à ignorer." },
-      { title: "À retenir", text: "Vous êtes à votre meilleur quand il faut déclencher une action avant que l’utilisateur recommence à réfléchir." },
+      { title: "Énergie", text: "Immédiateté, contexte et conviction presque arrogante que le moment est le bon." },
+      { title: "Ce qui vous distingue", text: "Vous aimez les messages courts, utiles et juste assez insistants pour créer une légère tension." },
+      { title: "À retenir", text: "Vous excellez quand il faut relancer une action avant que l’utilisateur ait le temps de se rappeler qu’il a le choix." },
     ],
   },
 };
@@ -340,8 +340,8 @@ function renderQuestion() {
   nextButton.disabled = selectedAnswerIndex === null;
   nextLabel.textContent =
     currentQuestionIndex === quizData.length - 1
-      ? "Découvrir mon verdict disproportionné"
-      : "Continuer cette introspection brochure";
+      ? "Recevoir mon verdict avec un sérieux absurde"
+      : "Poursuivre cette escalade de jargon";
   backButton.disabled = currentQuestionIndex === 0;
 
   currentQuestion.answers.forEach((answer, answerIndex) => {
