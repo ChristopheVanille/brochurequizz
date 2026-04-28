@@ -175,6 +175,20 @@ body {
   isolation: isolate;
 }
 
+.collage-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -3;
+  filter: saturate(1.02) contrast(1.02);
+}
+
+.collage-card::marker {
+  content: "";
+}
+
 .collage-card::before,
 .collage-card::after {
   content: "";
@@ -186,11 +200,14 @@ body {
 }
 
 .collage-card::before {
-  width: 180px;
-  height: 180px;
-  top: -40px;
-  right: -20px;
-  background: rgba(255, 255, 255, 0.18);
+  inset: 0;
+  width: auto;
+  height: auto;
+  border-radius: inherit;
+  top: 0;
+  right: 0;
+  background: linear-gradient(180deg, rgba(17, 14, 31, 0.04), rgba(17, 14, 31, 0.72));
+  opacity: 1;
 }
 
 .collage-card::after {
@@ -224,32 +241,24 @@ body {
 
 .collage-card-tall {
   grid-row: 1 / span 2;
-  background:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.26)),
-    linear-gradient(160deg, #8ab862 0%, #60883e 50%, #2d4727 100%);
+  background: #5d6771;
 }
 
 .collage-card-top {
   grid-column: 2;
-  background:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.2)),
-    linear-gradient(145deg, #6651d6 0%, #412e9f 100%);
+  background: #4b52aa;
   transform: rotate(-4deg);
 }
 
 .collage-card-right {
   grid-column: 3;
-  background:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.16)),
-    linear-gradient(145deg, #f6ca51 0%, #dd8556 100%);
+  background: #bb6b56;
 }
 
 .collage-card-wide {
   grid-column: 2 / span 2;
-  background:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.18)),
-    linear-gradient(135deg, #f3f5f9 0%, #d8dbe8 45%, #bcc4d7 100%);
-  color: #2b214d;
+  background: #3d7a73;
+  color: #ffffff;
   transform: rotate(4deg);
 }
 
@@ -465,56 +474,6 @@ body {
   margin: 16px auto 0;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.88);
-}
-
-.result-points {
-  display: grid;
-  gap: 12px;
-  margin-top: 24px;
-  text-align: left;
-}
-
-.result-retailer {
-  display: grid;
-  gap: 6px;
-  width: min(100%, 520px);
-  margin: 24px auto 0;
-  padding: 18px 20px;
-  border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.14);
-  backdrop-filter: blur(18px);
-}
-
-.result-retailer-label {
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 0.74rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.result-retailer-name {
-  font-size: clamp(1.25rem, 2.1vw, 1.8rem);
-  line-height: 1.15;
-}
-
-.result-retailer-note {
-  color: rgba(255, 255, 255, 0.82);
-  font-size: 0.95rem;
-  line-height: 1.55;
-}
-
-.result-point {
-  padding: 16px 18px;
-  border-radius: var(--radius-md);
-  background: var(--surface-soft);
-  backdrop-filter: blur(18px);
-}
-
-.result-point strong {
-  display: block;
-  margin-bottom: 6px;
-  font-size: 0.95rem;
 }
 
 .restart-button {
